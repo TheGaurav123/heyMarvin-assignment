@@ -1,9 +1,9 @@
 import React from 'react'
 import { Logo } from '../../assets'
 import { C2AButton } from '../../components'
-import './index.css'
 import { FaCaretDown } from 'react-icons/fa'
 import { GoArrowDownRight } from 'react-icons/go'
+import './index.css'
 
 const CARD_CONTENTS = [
   {
@@ -37,16 +37,16 @@ const index = () => {
           {/* Anchor Tags */}
           <ul className='header-navigations-anchors'>
             <div>
-              <li>Home page</li>
-              <li>Generator</li>
-              <li>Pricing-plan</li>
-              <li>Blog-News</li>
+              <li><a href='/'>Home page</a></li>
+              <li><a href='/'>Generator</a></li>
+              <li><a href='/'>Pricing-plan</a></li>
+              <li><a href='/'>Blog-News</a></li>
             </div>
             <div>
-              <li>About us</li>
-              <li>Features</li>
-              <li>Collection-2023</li>
-              <li>Career</li>
+              <li><a href='/'>About-us</a></li>
+              <li><a href='/'>Features</a></li>
+              <li><a href='/'>Collection-2023</a></li>
+              <li><a href='/'>Career</a></li>
             </div>
           </ul>
 
@@ -120,14 +120,14 @@ const index = () => {
               const { title, key } = val
               return (
                 <div style={{
-                  display:'flex',
-                  alignItems:'end',
-                  gap:'1rem'
+                  display: 'flex',
+                  alignItems: 'end',
+                  gap: '1rem'
                 }}
-                key={key}
+                  key={key}
                 >
                   <h2>{title}</h2>
-                  <span style={{fontSize:'2rem'}}><GoArrowDownRight /></span>
+                  <span style={{ fontSize: '2rem' }}><GoArrowDownRight /></span>
                 </div>
               )
             })}

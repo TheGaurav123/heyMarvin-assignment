@@ -25,6 +25,18 @@
     line-height: 3rem;
 }
 
+.header-navigations-anchors li a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+
+.header-navigations-anchors li a:hover {
+    transition: .2s ease-in-out all;
+    color: black;
+    border-bottom: .5px solid #212121;
+}
+
 /* -------------------- MIDDLE ------------------ */
 
 .middle-text h3:nth-child(1) {
