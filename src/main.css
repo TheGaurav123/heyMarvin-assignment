@@ -19,3 +19,17 @@ html {
 body{
     background-color: var(--background);
 }
+
+
+
+@media only screen and (max-width: 1280px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 7px;
+    }
+}
